@@ -4,6 +4,9 @@
   },
 
   "scripts": {
-    "cypress run": "cypress open"
+    "cypress::run": "cypress open",
+    "jenkins::update": "brew upgrade jenkins-lts",
+    "jenkins::restart": "brew services restart jenkins-lts",
+    "jenkins::start": "brew services start jenkins-lts"
   }
 }
